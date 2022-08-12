@@ -7,6 +7,27 @@ This is a simple 2D shooter game that lets you control a character and fight aga
 
 ## Installation
 
+### Install a Virtual Environment using Venv
+```
+python -m venv venv
+```
+or
+```
+python -m venv <directory-of-project>
+```
+
+If u have this error : cannot be loaded because running scripts is disabled on this system.
+
+Run PowerShell as a adminastrator. Run the following command.
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
+type A [Yes to All] and hit [Enter]
+
+and retry the create virtual environment using "python -m venv venv" code.
+
+----
+
 <img align="right" alt="PNG" src="https://github.com/sevketbinali/Attack-on-Titan-PyGame/blob/main/Gameplays/aoticon.png?raw=true" width="95" height="95" />
 
 This project uses Python3. 
@@ -17,6 +38,19 @@ To install pygame:
 ```
 pip install -r requirements.txt
 ```
+
+If u have this error : ERROR: Invalid requirement: 'pygame 2.1.2'
+```
+pip list --format=freeze > requirements.txt
+pip freeze
+```
+and re-run the 
+```
+pip install -r requirements.txt
+```
+
+
+
 
 
 ## Playing the game
