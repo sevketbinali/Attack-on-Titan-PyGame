@@ -7,14 +7,15 @@ This is a simple 2D shooter game that lets you control a character and fight aga
 
 ## Installation
 
-### Install a Virtual Environment using Venv
-```
-python -m venv venv
-```
+You can directly access the branch with the virtual environment branch ***[here.](https://github.com/sevketbinali/Attack-on-Titan-PyGame/tree/w/venv-main)***
+
 or
+
+### Install a Virtual Environment using Venv
 ```
 python -m venv <directory-of-project>
 ```
+
 
 If u have this error : cannot be loaded because running scripts is disabled on this system.
 
